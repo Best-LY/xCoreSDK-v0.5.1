@@ -1,0 +1,38 @@
+%YAML:1.0
+---
+camera_serial: "236422072262"
+robot_arm: left
+base_T_flange: !!opencv-matrix
+   rows: 4
+   cols: 4
+   dt: d
+   data: [ 0.66500376446689902, -0.65998990974640237,
+       0.34954729619579239, 0.28110785039250591, 0.74684000479455115,
+       0.58765663551957936, -0.31127108116284014, -0.23655039594097083,
+       2.1984725942669758e-05, 0.46805234510975829, 0.88370074219383099,
+       1.0043164102410638, 0., 0., 0., 1. ]
+joint_positions_rad: !!opencv-matrix
+   rows: 1
+   cols: 6
+   dt: d
+   data: [ -0.20807630465633525, -0.25748466735905756,
+       -1.6291405670086325, -5.9957127535243533, 0.9605135751905034,
+       0.93507969435836313 ]
+stationary_joint_tolerance_rad: 0.00050000000000000001
+robot_motion_permitted: 0
+color_file: "/home/arm/xCoreSDK-v0.5.1/example/function_config/calibration_runs/left_validation_20260930_i2JHhp/pose_a_006_color.png"
+depth_file: "/home/arm/xCoreSDK-v0.5.1/example/function_config/calibration_runs/left_validation_20260930_i2JHhp/pose_a_006_depth.png"
+width: 1280
+height: 720
+fx: 906.20599365234375
+fy: 905.343994140625
+ppx: 649.5164794921875
+ppy: 380.03854370117188
+distortion_model: 2
+distortion_coeffs: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: d
+   data: [ 0., 0., 0., 0., 0. ]
+depth_scale_m: 0.0010000000474974513
+capture_unix_ms: 1790751704655

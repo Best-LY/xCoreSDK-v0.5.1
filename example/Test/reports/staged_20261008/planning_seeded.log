@@ -1,0 +1,32 @@
+[OK] camera=236422072262 frames=10 prefix=/home/arm/xCoreSDK-v0.5.1/example/Test/reports/staged_20261008/left_elbow_seeded_1791441025580490432 size=1280x720
+[SAFE] read-only robot poses; no mode/power/motion commands
+[POINT] joint=left_elbow /home/arm/xCoreSDK-v0.5.1/example/Test/reports/staged_20261008/left_elbow_seeded_1791441025580490432_point.json depth=1.5720 m p90=9.48 mm
+[ORIENTATION] saved manual demonstration, not a fitted cloth normal
+[MOTION] joint + fixed-orientation linear; read-only planning
+[PREGRASP] source=manual demonstration, provisional TCP_F=[  0   0 0.3] m, retreat_direction_B=[  -0.998683   0.0509235 -0.00620344], grasp_center_B=[  0.39278 -0.153862   1.10363] m, estimated standoff=0.4 m, rotation=41.3587 deg
+[TARGET] left_elbow_B=[ 0.792253 -0.174232   1.10611] m
+[TARGET] approach flange_B=[0.0931749 -0.138585   1.10177] m
+[PLAN] flange distance=1.06389 m, demonstrated orientation
+[LIMIT] J1 [-6.28319, 6.28319] rad; current=-0.60801
+[LIMIT] J2 [-2.96706, 2.96706] rad; current=-1.58772
+[LIMIT] J3 [-2.87979, 2.87979] rad; current=-0.504927
+[LIMIT] J4 [-6.28319, 6.28319] rad; current=-3.23358
+[LIMIT] J5 [-6.28319, 6.28319] rad; current=2.31761
+[LIMIT] J6 [-6.28319, 6.28319] rad; current=-0.923855
+[FRAME] base_in_world=[0 0 0 0 1.5708 -0 ] end_in_ref=[0.584556 0.545159 0.536781 2.44947 0.301367 0.847185 ] expected_xyz=[0.584556 0.545159 0.536781] m
+[JOINT] J1 target=1.42394 change_deg=116.422
+[JOINT] J2 target=-0.752399 change_deg=47.8603
+[JOINT] J3 target=-0.935066 change_deg=-24.6452
+[JOINT] J4 target=-4.61919 change_deg=-79.3896
+[JOINT] J5 target=1.5473 change_deg=-44.1355
+[JOINT] J6 target=-0.577076 change_deg=19.869
+[ENDPOINT] controller IK/FK passed
+[PATH] joint interpolation, curved flange path; sampled FK/workspace checks are NOT full-body collision detection
+[KINEMATICS] 408 samples passed sigma_min=0.0954947 condition_max=19.2515
+[END-JOINTS] 1.42394 -0.752399 -0.935066 -4.61919 1.5473 -0.577076
+[STAGE 1] joint transit passed: 408 samples; pregrasp gap=0.4 m
+[STAGE 2] fixed orientation, linear approach=0.4 m; continuity checked from stage-one endpoint
+[LOCAL-IK] linear sample 18: controller code=-32; checking seeded model result with FK/limits/continuity
+[STAGED PLAN] both stages passed; sigma_min=0.0954947 condition_max=19.2515 local_ik_samples=1
+[REPORT] /home/arm/xCoreSDK-v0.5.1/example/Test/reports/staged_20261008/left_elbow_seeded_1791441025580490432_pregrasp.yml.staged.csv
+[READ-ONLY] no motion/mode/power commands; collision clearance NOT established

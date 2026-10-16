@@ -1,0 +1,15 @@
+{
+  "schema_version": 2,
+  "reported_date": "2026-10-09",
+  "source": "onsite_user_reply",
+  "target": "mannequin_left_elbow",
+  "surface_to_support_clearance_m_approx": 0.200,
+  "requested_grasp_center_insertion_from_surface_m": 0.080,
+  "reported_finger_extension_beyond_grasp_center_m": 0.100,
+  "nominal_axial_tip_clearance_m": 0.020,
+  "supersedes_for_current_scene": "run_V0hsRb1d/onsite_clearance.json (previous 0.050 m clearance)",
+  "interpretation": "The user reports suspended elbow and 0.200 m clearance along approach. Requested 0.080 m insertion plus 0.100 m finger extension leaves nominal 0.020 m before uncertainties. The old 0.050 m report must not be used as current scene geometry.",
+  "collision_clearance_established": false,
+  "robot_motion_permitted": false,
+  "invalidated_by": ["scene_change", "robot_base_change", "tool_mount_or_geometry_change", "approach_direction_change"]
+}

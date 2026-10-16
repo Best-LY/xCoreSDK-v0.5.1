@@ -1,0 +1,6 @@
+[READ-ONLY] Saved candidate diagnostic, not a fresh target or execution authorization.
+[READ-ONLY] No power/mode/move/gripper commands will be sent.
+[STAGE 1] MoveAbsJ: Cartesian checkPath not applicable; NOT controller-validated.
+[STAGE 2] checkPath code=0 message=success
+[STAGE 2] endpoint_joint_delta_rad=5.39456e-08 q=[2.48417 -1.20059 -1.17703 -5.6765 1.54523 -0.772379 ]
+[RESULT] Controller-accepted matching linear legs=1. Whole-route collision validation NOT performed; no motion commanded.

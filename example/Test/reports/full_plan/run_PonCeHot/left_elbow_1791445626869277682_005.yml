@@ -1,0 +1,37 @@
+%YAML:1.0
+---
+camera_serial: "236422072262"
+robot_arm: left
+base_T_flange: !!opencv-matrix
+   rows: 4
+   cols: 4
+   dt: d
+   data: [ 0.29680305810232432, -0.60945660447758943,
+       0.73516705037682095, -0.53678592539141656, 0.71562844412226523,
+       -0.3677847362389568, -0.59381000139167961, 0.54515917602743291,
+       0.6322846468674167, 0.70235107677591535, 0.32698484718325727,
+       0.58454328560512625, 0., 0., 0., 1. ]
+joint_positions_rad: !!opencv-matrix
+   rows: 1
+   cols: 6
+   dt: d
+   data: [ -0.60801226030124067, -1.5877398237031715, -0.504919124027985,
+       -3.2336140038945702, 2.3176024097831194, -0.92384184698011229 ]
+stationary_joint_tolerance_rad: 0.00050000000000000001
+robot_motion_permitted: 0
+color_file: "/home/arm/xCoreSDK-v0.5.1/example/Test/reports/full_plan/run_PonCeHot/left_elbow_1791445626869277682_005_color.png"
+depth_file: "/home/arm/xCoreSDK-v0.5.1/example/Test/reports/full_plan/run_PonCeHot/left_elbow_1791445626869277682_005_depth.png"
+width: 1280
+height: 720
+fx: 906.20599365234375
+fy: 905.343994140625
+ppx: 649.5164794921875
+ppy: 380.03854370117188
+distortion_model: 2
+distortion_coeffs: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: d
+   data: [ 0., 0., 0., 0., 0. ]
+depth_scale_m: 0.0010000000474974513
+capture_unix_ms: "1791445630497"

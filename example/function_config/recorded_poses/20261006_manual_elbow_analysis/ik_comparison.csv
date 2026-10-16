@@ -1,0 +1,20 @@
+# READ-ONLY: hypothetical endpoints, NOT path validation or permission to move
+case,gap_m,roll_deg,ik_code,fk_position_error_m,fk_rotation_error_rad,flange_x,flange_y,flange_z
+current_manual_pose,-1,0,0,3.040252266e-13,5.65655853e-13,0.5191947513,-0.2481739269,1.155249549
+old_shoulder_surface_normal,0.4,0,-32,-1,-1,0.1894688903,0.4099765531,1.435720878
+old_shoulder_manual_orientation,0.4,0,0,6.063933327e-14,4.773578676e-14,-0.01877622729,0.06761551519,1.07716212
+old_shoulder_surface_normal,0.3,0,-32,-1,-1,0.2615712036,0.3592360644,1.388533388
+old_shoulder_manual_orientation,0.3,0,0,2.367739317e-15,4.77093956e-15,0.08109210173,0.06252316487,1.077782465
+old_shoulder_surface_normal,0.2,0,-32,-1,-1,0.333673517,0.3084955757,1.341345898
+old_shoulder_manual_orientation,0.2,0,0,1.382689528e-13,3.27192151e-13,0.1809604308,0.05743081456,1.078402809
+old_shoulder_surface_normal,0.1,0,-32,-1,-1,0.4057758303,0.257755087,1.294158408
+old_shoulder_manual_orientation,0.1,0,0,1.024341083e-11,9.218597707e-12,0.2808287598,0.05233846424,1.079023153
+old_shoulder_surface_normal,0,0,-32,-1,-1,0.4778781437,0.2070145983,1.246970918
+old_shoulder_manual_orientation,0,0,0,1.112874203e-14,9.689400368e-15,0.3806970888,0.04724611392,1.079643498
+old_shoulder_surface_normal_roll,0.4,45,-32,-1,-1,0.1894688903,0.4099765531,1.435720878
+old_shoulder_surface_normal_roll,0.4,90,-32,-1,-1,0.1894688903,0.4099765531,1.435720878
+old_shoulder_surface_normal_roll,0.4,135,-32,-1,-1,0.1894688903,0.4099765531,1.435720878
+old_shoulder_surface_normal_roll,0.4,180,-32,-1,-1,0.1894688903,0.4099765531,1.435720878
+old_shoulder_surface_normal_roll,0.4,225,-32,-1,-1,0.1894688903,0.4099765531,1.435720878
+old_shoulder_surface_normal_roll,0.4,270,-32,-1,-1,0.1894688903,0.4099765531,1.435720878
+old_shoulder_surface_normal_roll,0.4,315,-32,-1,-1,0.1894688903,0.4099765531,1.435720878

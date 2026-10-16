@@ -1,0 +1,18 @@
+%YAML 1.2
+---
+capture_file: "/home/arm/xCoreSDK-v0.5.1/example/Test/reports/staged_20261008/stage1_trial_plan_1791441726008956896_000.yml"
+camera_serial: "236422072262"
+joint: left_elbow
+coco_index: 7
+point_C: !!opencv-matrix
+   rows: 3
+   cols: 1
+   dt: d
+   data: [ 0.057124966755509377, 0.093221765011548996,
+       1.5800000429153442 ]
+orientation_source: demonstrated
+point_p90_m: 0.011845270482011547
+person_confidence: 0.93982499837875366
+keypoint_confidence: 0.99159860610961914
+depth_spread_m: 0.017000000807456672
+valid_frames: 10

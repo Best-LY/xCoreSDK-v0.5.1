@@ -1,0 +1,29 @@
+[OK] camera=236422072262 frames=10 prefix=/home/arm/xCoreSDK-v0.5.1/example/Test/reports/staged_20261008/left_elbow_1791440894570988485 size=1280x720
+[SAFE] read-only robot poses; no mode/power/motion commands
+[POINT] joint=left_elbow /home/arm/xCoreSDK-v0.5.1/example/Test/reports/staged_20261008/left_elbow_1791440894570988485_point.json depth=1.5740 m p90=13.84 mm
+[ORIENTATION] saved manual demonstration, not a fitted cloth normal
+[MOTION] joint + fixed-orientation linear; read-only planning
+[PREGRASP] source=manual demonstration, provisional TCP_F=[  0   0 0.3] m, retreat_direction_B=[  -0.998683   0.0509235 -0.00620344], grasp_center_B=[ 0.394973 -0.154608   1.10287] m, estimated standoff=0.4 m, rotation=41.3587 deg
+[TARGET] left_elbow_B=[ 0.794446 -0.174978   1.10535] m
+[TARGET] approach flange_B=[0.0953682 -0.139331   1.10101] m
+[PLAN] flange distance=1.0653 m, demonstrated orientation
+[LIMIT] J1 [-6.28319, 6.28319] rad; current=-0.60801
+[LIMIT] J2 [-2.96706, 2.96706] rad; current=-1.58772
+[LIMIT] J3 [-2.87979, 2.87979] rad; current=-0.504927
+[LIMIT] J4 [-6.28319, 6.28319] rad; current=-3.23358
+[LIMIT] J5 [-6.28319, 6.28319] rad; current=2.31761
+[LIMIT] J6 [-6.28319, 6.28319] rad; current=-0.923855
+[FRAME] base_in_world=[0 0 0 0 1.5708 -0 ] end_in_ref=[0.584556 0.545159 0.536781 2.44947 0.301367 0.847185 ] expected_xyz=[0.584556 0.545159 0.536781] m
+[JOINT] J1 target=1.43198 change_deg=116.883
+[JOINT] J2 target=-0.754098 change_deg=47.763
+[JOINT] J3 target=-0.937366 change_deg=-24.777
+[JOINT] J4 target=-4.62711 change_deg=-79.8438
+[JOINT] J5 target=1.5487 change_deg=-44.055
+[JOINT] J6 target=-0.576347 change_deg=19.9108
+[ENDPOINT] controller IK/FK passed
+[PATH] joint interpolation, curved flange path; sampled FK/workspace checks are NOT full-body collision detection
+[KINEMATICS] 409 samples passed sigma_min=0.0954947 condition_max=19.2515
+[END-JOINTS] 1.43198 -0.754098 -0.937366 -4.62711 1.5487 -0.576347
+[STAGE 1] joint transit passed: 409 samples; pregrasp gap=0.4 m
+[STAGE 2] fixed orientation, linear approach=0.4 m; continuity checked from stage-one endpoint
+[ERROR] linear stage IK at sample 23: IK error (code=-32); no motion commanded

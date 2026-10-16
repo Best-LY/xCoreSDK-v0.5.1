@@ -1,0 +1,28 @@
+[DIAGNOSTIC] historical observation replay; no new capture; NOT a current scene plan; execution prohibited
+[PREGRASP] source=manual demonstration, provisional TCP_F=[  0   0 0.3] m, retreat_direction_B=[  -0.998683   0.0509235 -0.00620344], grasp_center_B=[ 0.391027 -0.155174   1.10756] m, estimated standoff=0.4 m, rotation=41.3604 deg
+[TARGET] left_elbow_B=[ 0.790501 -0.175544   1.11004] m
+[TARGET] approach flange_B=[0.0914223 -0.139897    1.1057] m
+[PLAN] flange distance=1.06562 m, demonstrated orientation
+[LIMIT] J1 [-6.28319, 6.28319] rad; current=-0.608012
+[LIMIT] J2 [-2.96706, 2.96706] rad; current=-1.58774
+[LIMIT] J3 [-2.87979, 2.87979] rad; current=-0.504919
+[LIMIT] J4 [-6.28319, 6.28319] rad; current=-3.23361
+[LIMIT] J5 [-6.28319, 6.28319] rad; current=2.3176
+[LIMIT] J6 [-6.28319, 6.28319] rad; current=-0.923842
+[FRAME] base_in_world=[0 0 0 0 1.5708 -0 ] end_in_ref=[0.584543 0.545159 0.536786 2.44941 0.301343 0.847151 ] expected_xyz=[0.584543 0.545159 0.536786] m
+[JOINT] J1 target=1.41863 change_deg=116.118
+[JOINT] J2 target=-0.747223 change_deg=48.1581
+[JOINT] J3 target=-0.920393 change_deg=-23.8049
+[JOINT] J4 target=-4.61374 change_deg=-79.0753
+[JOINT] J5 target=1.54727 change_deg=-44.1366
+[JOINT] J6 target=-0.586623 change_deg=19.3213
+[ENDPOINT] controller IK/FK passed
+[PATH] joint interpolation, curved flange path; sampled FK/workspace checks are NOT full-body collision detection
+[KINEMATICS] 407 samples passed sigma_min=0.0954951 condition_max=19.2514
+[END-JOINTS] 1.41863 -0.747223 -0.920393 -4.61374 1.54727 -0.586623
+[STAGE 1] joint transit passed: 407 samples; pregrasp gap=0.4 m
+[STAGE 2] fixed orientation, linear approach=0.4 m; seed=stage-one endpoint, then previous sample; boundary round-trip passed
+[STAGED PLAN] both stages passed; sigma_min=0.0954951 condition_max=19.2514 local_ik_samples=100
+[REPORT] /home/arm/xCoreSDK-v0.5.1/example/Test/reports/full_plan/run_osHeopbP/left_elbow_1791443685451602024_pregrasp.yml.seeded_diagnostic.staged.csv
+[FULL PLAN] /home/arm/xCoreSDK-v0.5.1/example/Test/reports/full_plan/run_osHeopbP/left_elbow_1791443685451602024_pregrasp.yml.seeded_diagnostic.full_plan.json
+[READ-ONLY] no motion/mode/power commands; collision clearance NOT established

@@ -1,0 +1,38 @@
+%YAML:1.0
+---
+camera_serial: "236422072262"
+robot_arm: left
+base_T_flange: !!opencv-matrix
+   rows: 4
+   cols: 4
+   dt: d
+   data: [ 0.29680282750228926, -0.60945688325131098,
+       0.73516691237041143, -0.5367859826265311, 0.71562861648146492,
+       -0.36778452650932136, -0.59380992357246665, 0.54515921354603014,
+       0.63228456003564615, 0.70235094469781434, 0.32698529878668414,
+       0.5845432588624524, 0., 0., 0., 1. ]
+joint_positions_rad: !!opencv-matrix
+   rows: 1
+   cols: 6
+   dt: d
+   data: [ -0.60801226030124067, -1.5877400234402532,
+       -0.50491888434348686, -3.2336140038945702, 2.3176021700986214,
+       -0.92384208666461032 ]
+stationary_joint_tolerance_rad: 0.00050000000000000001
+robot_motion_permitted: 0
+color_file: "/home/arm/xCoreSDK-v0.5.1/example/Test/reports/full_plan/run_osHeopbP/left_elbow_1791443685451602024_001_color.png"
+depth_file: "/home/arm/xCoreSDK-v0.5.1/example/Test/reports/full_plan/run_osHeopbP/left_elbow_1791443685451602024_001_depth.png"
+width: 1280
+height: 720
+fx: 906.20599365234375
+fy: 905.343994140625
+ppx: 649.5164794921875
+ppy: 380.03854370117188
+distortion_model: 2
+distortion_coeffs: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: d
+   data: [ 0., 0., 0., 0., 0. ]
+depth_scale_m: 0.0010000000474974513
+capture_unix_ms: "1791443688479"

@@ -1,0 +1,21 @@
+Script started on 2026-09-29 15:22:36+08:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+========================================
+  xCoreSDK 0.5.1 Drag Hand-Eye Calibration
+========================================
+1. Left arm  (192.168.2.161)
+2. Right arm (192.168.2.160)
+Select: 1
+Measured checkerboard square size in millimeters: 
+
+
+5
+.[LeftArm] starting camera...
+Detected RealSense devices: 2
+  - Intel RealSense D435, serial=236422072262
+  - Intel RealSense D435, serial=236422070786
+Using camera serial: 236422072262
+Camera started: 640x480@15
+[LeftArm] enabling drag mode...
+Failed to power on robot: switch motor power failed
+
+Script done on 2026-09-29 15:23:13+08:00 [COMMAND_EXIT_CODE="0"]

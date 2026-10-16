@@ -1,0 +1,2 @@
+[OK] joint_then_linear_400mm: grasp surface +50 mm, 2 stage(s), sampled grasp path 1.7511 m
+[HOLD] kinematic candidate only; no collision certificate or hardware execution permission

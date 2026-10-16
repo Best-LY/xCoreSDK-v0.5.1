@@ -1,0 +1,18 @@
+%YAML 1.2
+---
+capture_file: "/home/arm/xCoreSDK-v0.5.1/example/Test/reports/full_plan/run_PonCeHot/left_elbow_1791445626869277682_000.yml"
+camera_serial: "236422072262"
+joint: left_elbow
+coco_index: 7
+point_C: !!opencv-matrix
+   rows: 3
+   cols: 1
+   dt: d
+   data: [ 0.053749999031424522, 0.086643923074007034,
+       1.5700000524520874 ]
+orientation_source: demonstrated
+point_p90_m: 0.011712659462818669
+person_confidence: 0.93517929315567017
+keypoint_confidence: 0.98852252960205078
+depth_spread_m: 0.021000000997446477
+valid_frames: 10

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "plan_file": "/home/arm/xCoreSDK-v0.5.1/example/Test/reports/full_plan/run_V0hsRb1d/left_elbow_1791526511905024168_pregrasp.yml.full_plan.json",
+  "capture_unix_ms": "1791526514883",
+  "roi_xyxy": [
+    660,
+    350,
+    780,
+    480
+  ],
+  "normal_base": [
+    -0.9984096175359712,
+    -0.037271192825125705,
+    0.0422976807528198
+  ],
+  "plane_center_base_m": [
+    0.8916948659734198,
+    -0.17286020069114888,
+    1.2051092559964451
+  ],
+  "valid_depth_points": 15600,
+  "inlier_points": 12286,
+  "inlier_fraction": 0.7875641025641026,
+  "plane_rms_m": 0.00417160113682049,
+  "plane_inlier_abs_residual_p95_m": 0.007348856758927011,
+  "grasp_center_signed_height_m": 0.09604121663673407,
+  "finger_tip_axis_signed_height_m": -0.003452246449043454,
+  "finger_tip_height_range_m": [
+    -0.011058269380342288,
+    0.004153776482255379
+  ],
+  "approach_axis_normal_dot": -0.9949346308577748,
+  "transverse_bound_radius_m": 0.07566372975210778,
+  "status": "potential_support_plane_intersection",
+  "local_plane_extrapolated_to_tool": true,
+  "exact_finger_solids_known": false,
+  "collision_clearance_established": false,
+  "robot_motion_permitted": false,
+  "limitations": "Selected visible plane only; no occluded surfaces, exact finger cavity, full-arm or other-arm model. Not motion authorization."
+}

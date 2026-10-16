@@ -1,0 +1,44 @@
+[OK] camera=236422072262 frames=10 prefix=/home/arm/xCoreSDK-v0.5.1/example/Test/reports/reach_plan/run_7Wu1lWmT/left_elbow_1791531484110933326 size=1280x720
+[SAFE] read-only robot poses; no mode/power/motion commands
+[POINT] joint=left_elbow /home/arm/xCoreSDK-v0.5.1/example/Test/reports/reach_plan/run_7Wu1lWmT/left_elbow_1791531484110933326_point.json depth=1.5130 m p90=18.04 mm
+[ORIENTATION] saved manual demonstration, not a fitted cloth normal
+[MOTION] reach-first candidate search, surface +50 mm; read-only planning
+[GRASP GOAL] source=manual demonstration, provisional TCP_F=[  0   0 0.3] m, retreat_direction_B=[  -0.998683   0.0509235 -0.00620344], grasp_center_B=[ 0.826972 -0.177141  0.948558] m, estimated standoff=-0.05 m, rotation=41.3595 deg
+[TARGET] left_elbow_B=[ 0.777038 -0.174595  0.948248] m
+[TARGET] approach flange_B=[ 0.527367 -0.161864  0.946697] m
+[PLAN] flange distance=1.32796 m, demonstrated orientation
+[LIMIT] J1 [-6.28319, 6.28319] rad; current=-0.608009
+[LIMIT] J2 [-2.96706, 2.96706] rad; current=-1.58774
+[LIMIT] J3 [-2.87979, 2.87979] rad; current=-0.504909
+[LIMIT] J4 [-6.28319, 6.28319] rad; current=-3.23357
+[LIMIT] J5 [-6.28319, 6.28319] rad; current=2.3176
+[LIMIT] J6 [-6.28319, 6.28319] rad; current=-0.923851
+[FRAME] base_in_world=[0 0 0 0 1.5708 -0 ] end_in_ref=[0.584535 0.545165 0.536789 2.44945 0.301341 0.847206 ] expected_xyz=[0.584535 0.545165 0.536789] m
+LOGGER NOT INITIALIZED:
+		curJnt_origin = 
+[-0.607783, -1.59747, -0.534022, 3.05327, 2.29946, -0.919627]
+AxisScope = 
+[0, 0, 0, 0, 0, 0]
+curJntPose after map to -KDL::PI~KDL::PI = 
+[-0.607783, -1.59747, -0.534022, 3.05327, 2.29946, -0.919627]
+OutJointPose_temp = 
+[-0.607561, -1.60662, -0.56178, 3.05673, 2.28207, -0.91566]
+Limit = 
+[-3.05433, -3.05433, -3.05433, -3.05433, -3.05433, -3.05433]
+~
+[3.05433, 3.05433, 3.05433, 3.05433, 3.05433, 3.05433]
+OutJointPose = 
+[-0.607561, -1.60662, -0.56178, 3.05673, 2.28207, -0.91566]
+
+[CANDIDATE] direct_linear REJECT seeded linear IK sample 2/332 code=-6
+[CANDIDATE] direct_joint PASS tcp_length_m=2.16924 joint_travel_rad=7.50726
+[CANDIDATE] joint_then_linear_50mm PASS tcp_length_m=2.07682 joint_travel_rad=8.08473
+[CANDIDATE] joint_then_linear_100mm PASS tcp_length_m=2.03218 joint_travel_rad=8.36156
+[CANDIDATE] joint_then_linear_150mm PASS tcp_length_m=1.98709 joint_travel_rad=8.62505
+[CANDIDATE] joint_then_linear_200mm PASS tcp_length_m=1.9408 joint_travel_rad=8.87507
+[CANDIDATE] joint_then_linear_300mm PASS tcp_length_m=1.84437 joint_travel_rad=9.38415
+[CANDIDATE] joint_then_linear_400mm PASS tcp_length_m=1.75108 joint_travel_rad=9.73489
+[SELECTED] joint_then_linear_400mm grasp_path_m=1.75108 stages=2
+[REACH PLAN] /home/arm/xCoreSDK-v0.5.1/example/Test/reports/reach_plan/run_7Wu1lWmT/left_elbow_1791531484110933326_pregrasp.yml.reach_plan.json
+[READ-ONLY] no power/mode/motion commands; path shortening is not collision validation
+[REPLAY COMPLETE] 2 virtual commands, arrival and shutdown verified; no hardware dispatch

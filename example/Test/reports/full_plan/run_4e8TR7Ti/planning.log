@@ -1,0 +1,2 @@
+[ERROR] snapshot failed: robot moved during capture; discard this burst
+[HOLD] Command '['/home/arm/xCoreSDK-v0.5.1/build/bin/mannequin_snapshot', '--robot-arm', 'left', '--burst', '10', '--output-prefix', '/home/arm/xCoreSDK-v0.5.1/example/Test/reports/full_plan/run_4e8TR7Ti/left_elbow_1791526330815304792']' returned non-zero exit status 2.

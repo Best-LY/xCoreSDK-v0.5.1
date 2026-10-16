@@ -1,0 +1,33 @@
+[OK] camera=236422072262 frames=10 prefix=/home/arm/xCoreSDK-v0.5.1/example/Test/reports/full_plan/run_169NSGdK/left_elbow_1791446398313244278 size=1280x720
+[SAFE] read-only robot poses; no mode/power/motion commands
+[POINT] joint=left_elbow /home/arm/xCoreSDK-v0.5.1/example/Test/reports/full_plan/run_169NSGdK/left_elbow_1791446398313244278_point.json depth=1.5720 m p90=15.59 mm
+[ORIENTATION] saved manual demonstration, not a fitted cloth normal
+[MOTION] joint + fixed-orientation linear; read-only planning
+[PREGRASP] source=manual demonstration, provisional TCP_F=[  0   0 0.3] m, retreat_direction_B=[  -0.998683   0.0509235 -0.00620344], grasp_center_B=[0.392085 -0.15762  1.10147] m, estimated standoff=0.4 m, rotation=41.3604 deg
+[TARGET] left_elbow_B=[0.791558 -0.17799  1.10395] m
+[TARGET] approach flange_B=[0.0924797 -0.142343   1.09961] m
+[PLAN] flange distance=1.06486 m, demonstrated orientation
+[LIMIT] J1 [-6.28319, 6.28319] rad; current=-0.608012
+[LIMIT] J2 [-2.96706, 2.96706] rad; current=-1.58774
+[LIMIT] J3 [-2.87979, 2.87979] rad; current=-0.504919
+[LIMIT] J4 [-6.28319, 6.28319] rad; current=-3.23361
+[LIMIT] J5 [-6.28319, 6.28319] rad; current=2.3176
+[LIMIT] J6 [-6.28319, 6.28319] rad; current=-0.923842
+[FRAME] base_in_world=[0 0 0 0 1.5708 -0 ] end_in_ref=[0.584543 0.545159 0.536786 2.44941 0.301343 0.847151 ] expected_xyz=[0.584543 0.545159 0.536786] m
+[JOINT] J1 target=1.42349 change_deg=116.396
+[JOINT] J2 target=-0.760004 change_deg=47.4258
+[JOINT] J3 target=-0.940147 change_deg=-24.9367
+[JOINT] J4 target=-4.61868 change_deg=-79.3586
+[JOINT] J5 target=1.54745 change_deg=-44.1263
+[JOINT] J6 target=-0.579598 change_deg=19.7237
+[ENDPOINT] controller IK/FK passed
+[PATH] joint interpolation, curved flange path; sampled FK/workspace checks are NOT full-body collision detection
+[KINEMATICS] 408 samples passed sigma_min=0.0954951 condition_max=19.2514
+[END-JOINTS] 1.42349 -0.760004 -0.940147 -4.61868 1.54745 -0.579598
+[STAGE 1] joint transit passed: 408 samples; pregrasp gap=0.4 m
+[STAGE 2] fixed orientation, linear approach=0.4 m; seed=stage-one endpoint, then previous sample; boundary round-trip passed
+[REPLAY] two-stage supervision passed with local FK; simulated telemetry, NO hardware dispatch
+[STAGED PLAN] both stages passed; sigma_min=0.0954951 condition_max=19.2514 local_ik_samples=100
+[REPORT] /home/arm/xCoreSDK-v0.5.1/example/Test/reports/full_plan/run_169NSGdK/left_elbow_1791446398313244278_pregrasp.yml.staged.csv
+[FULL PLAN] /home/arm/xCoreSDK-v0.5.1/example/Test/reports/full_plan/run_169NSGdK/left_elbow_1791446398313244278_pregrasp.yml.full_plan.json
+[READ-ONLY] no motion/mode/power commands; collision clearance NOT established

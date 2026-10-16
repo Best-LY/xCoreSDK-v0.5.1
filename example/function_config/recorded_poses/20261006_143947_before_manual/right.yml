@@ -1,0 +1,37 @@
+%YAML:1.0
+---
+camera_serial: "236422070786"
+robot_arm: right
+base_T_flange: !!opencv-matrix
+   rows: 4
+   cols: 4
+   dt: d
+   data: [ -0.91178180936605657, -0.17034652646721998,
+       0.37367899730880461, -0.69179803374931814, 0.18684871092264949,
+       -0.98235535923503448, 0.0080936647293640071, -0.16505225917742275,
+       0.36570683796684067, 0.077201095217360072, 0.92752277576431252,
+       0.73461078879823782, 0., 0., 0., 1. ]
+joint_positions_rad: !!opencv-matrix
+   rows: 1
+   cols: 6
+   dt: d
+   data: [ 3.1632449522004644, 1.7027608190773122, 1.1089060829205981,
+       -3.1415909757983065, -0.976921177508427, -3.3496366407863003 ]
+stationary_joint_tolerance_rad: 0.00050000000000000001
+robot_motion_permitted: 0
+color_file: "/home/arm/xCoreSDK-v0.5.1/example/function_config/recorded_poses/20261006_143947_before_manual/right_color.png"
+depth_file: "/home/arm/xCoreSDK-v0.5.1/example/function_config/recorded_poses/20261006_143947_before_manual/right_depth.png"
+width: 1280
+height: 720
+fx: 909.2808837890625
+fy: 908.25830078125
+ppx: 660.61639404296875
+ppy: 363.33474731445312
+distortion_model: 2
+distortion_coeffs: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: d
+   data: [ 0., 0., 0., 0., 0. ]
+depth_scale_m: 0.0010000000474974513
+capture_unix_ms: "1791268824433"

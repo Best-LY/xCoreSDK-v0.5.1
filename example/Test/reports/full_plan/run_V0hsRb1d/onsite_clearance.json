@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "reported_date": "2026-10-09",
+  "source": "onsite_user_reply",
+  "target": "mannequin_left_elbow",
+  "target_to_support_clearance_m_approx": 0.050,
+  "reported_finger_extension_beyond_grasp_center_m": 0.100,
+  "interpretation": "For the current nearly support-normal approach, the finger extension exceeds the reported local clearance by approximately 0.050 m. This is not a full collision model.",
+  "zero_standoff_approach_status": "hold_expected_support_interference",
+  "robot_motion_permitted": false,
+  "invalidated_by": ["mannequin_or_support_repositioning", "tool_geometry_correction", "approach_direction_change"]
+}

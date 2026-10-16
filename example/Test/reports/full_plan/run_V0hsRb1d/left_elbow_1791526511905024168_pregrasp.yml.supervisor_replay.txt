@@ -1,0 +1,5 @@
+PASS: two-stage supervisor replay against local FK; virtual telemetry/time only
+SDK commands dispatched: 0
+Controller MoveL acceptance: NOT TESTED
+Collision clearance: NOT VALIDATED
+Hardware execution remains disabled after incident

@@ -1,0 +1,3 @@
+[OK] camera=236422072262 frames=10 prefix=/home/arm/xCoreSDK-v0.5.1/example/Test/reports/full_plan/run_ebwpzhmk/left_elbow_1791444547742526257 size=1280x720
+[SAFE] read-only robot poses; no mode/power/motion commands
+[HOLD] left_elbow P90 variation 0.0217 m exceeds 0.020 m

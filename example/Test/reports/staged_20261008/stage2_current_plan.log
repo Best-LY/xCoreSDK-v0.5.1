@@ -1,0 +1,13 @@
+[OK] camera=236422072262 frames=10 prefix=/home/arm/xCoreSDK-v0.5.1/example/Test/reports/staged_20261008/stage2_current_plan_1791442444566154106 size=1280x720
+[SAFE] read-only robot poses; no mode/power/motion commands
+[HOLD] frame 0: need one reliable mannequin, found 0
+[HOLD] frame 1: need one reliable mannequin, found 0
+[HOLD] frame 2: need one reliable mannequin, found 0
+[HOLD] frame 3: left_elbow confidence below commissioning limit
+[HOLD] frame 4: left_elbow confidence below commissioning limit
+[HOLD] frame 5: left_elbow confidence below commissioning limit
+[HOLD] frame 6: left_elbow confidence below commissioning limit
+[HOLD] frame 7: need one reliable mannequin, found 0
+[HOLD] frame 8: left_elbow confidence below commissioning limit
+[HOLD] frame 9: need one reliable mannequin, found 0
+[HOLD] need at least 8/10 reliable left_elbow frames; got 0

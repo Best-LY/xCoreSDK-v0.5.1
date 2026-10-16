@@ -1,0 +1,18 @@
+%YAML 1.2
+---
+capture_file: "/home/arm/xCoreSDK-v0.5.1/example/Test/reports/full_plan/run_osHeopbP/left_elbow_1791443685451602024_000.yml"
+camera_serial: "236422072262"
+joint: left_elbow
+coco_index: 7
+point_C: !!opencv-matrix
+   rows: 3
+   cols: 1
+   dt: d
+   data: [ 0.061326278373599052, 0.091925136744976044,
+       1.5720000267028809 ]
+orientation_source: demonstrated
+point_p90_m: 0.019871122982621735
+person_confidence: 0.93378657102584839
+keypoint_confidence: 0.98669171333312988
+depth_spread_m: 0.025000001187436283
+valid_frames: 10
